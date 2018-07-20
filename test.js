@@ -10,7 +10,7 @@ describe('Unicorn', function () {
   });
 
   it('should check bracket balance', function () {
-    var string = ')('
+    var string = '('
     var balanced = new bracketBalancer(string);
     assert.isFalse(balanced.isBalanced());
   });

@@ -10,6 +10,9 @@ function bracketBalancer(string) {
     ) {
       return false;
     }
+    if (
+      
+    )
   };
 }
 
