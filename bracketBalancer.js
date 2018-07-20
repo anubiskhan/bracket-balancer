@@ -9,7 +9,7 @@ function bracketBalancer(string) {
   };
   var stack = [];
   this.isBalanced = function() {
-    if (Object.keys(pairs).includes(brackets[0]) || brackets.length == 1) {
+    if (brackets.length == 1) {
       return false;
     }
     for (var i = 0; i < brackets.length; i++) {
